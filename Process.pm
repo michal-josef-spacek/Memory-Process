@@ -13,7 +13,7 @@ sub report {
 	my $self = shift;
 	my $report = $self->SUPER::report;
 	my @report_full = split m/\n/ms, $report;
-	my @report = ($report_full[-2], $report_full[-1]);
+	my @report = ($report_full[0], $report_full[-2], $report_full[-1]);
 	return wantarray ? @report : (join "\n", @report);
 }
 
