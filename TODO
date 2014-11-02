@@ -1,0 +1,15 @@
+TODO
+====
+1. Udelat Memory::Process obecnou tridu, ktera ma:
+   - callback na output.
+     - Implementaci jako Memory::Usage
+   - callback na ziskani dat.
+     - Ziskani podle Memory::Usage
+     - Ziskani podle Proc::ProcessTable
+   Pozadavky:
+   - Vracet kod po radcich nebo stringem.
+   - Vracet cely report nebo castecny report.
+2.
+
+Applied
+=======
