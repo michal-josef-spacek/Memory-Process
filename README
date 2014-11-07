@@ -15,7 +15,8 @@ METHODS
              Constructor.
 
     "dump()"
-             TODO
+             Print report to STDERR.
+             Returns return value of print().
 
     "record($message[, $pid])"
              Get report.

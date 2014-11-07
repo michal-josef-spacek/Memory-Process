@@ -8,6 +8,12 @@ use warnings;
 # Version.
 our $VERSION = 0.02;
 
+# Print report to STDERR.
+sub dump {
+	my $self = shift;
+	return print STDERR scalar $self->report;
+}
+
 # Get report.
 sub report {
 	my $self = shift;
@@ -49,7 +55,8 @@ __END__
 
 =item C<dump()>
 
- TODO
+ Print report to STDERR.
+ Returns return value of print().
 
 =item C<record($message[, $pid])>
 
