@@ -1,4 +1,4 @@
-0.02
+0.02 2014-11-08T08:29:33+01:00
  - Fix dump() across Memory::Usage->dump().
  - Fix report() across Memory::Usage->report() in scalar mode.
 
