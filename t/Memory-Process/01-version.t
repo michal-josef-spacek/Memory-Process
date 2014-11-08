@@ -8,4 +8,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Memory::Process::VERSION, 0.02, 'Version.');
+is($Memory::Process::VERSION, 0.03, 'Version.');

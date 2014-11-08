@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 # Version.
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Print report to STDERR.
 sub dump {
@@ -128,6 +128,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
