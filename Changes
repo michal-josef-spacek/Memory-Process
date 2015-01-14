@@ -1,5 +1,6 @@
 0.03
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Update copyright years in LICENSE file.
 
 0.02 2014-11-08T08:29:33+01:00
  - Fix dump() across Memory::Usage->dump().
