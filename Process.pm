@@ -60,14 +60,12 @@ __END__
 
 =item C<record($message[, $pid])>
 
+=item C<report()>
+
  Get report.
  In scalar context returns string with report.
  In array context returns array of report lines.
  First line is title.
-
-=item C<report()>
-
- TODO
 
 =item C<state()>
 

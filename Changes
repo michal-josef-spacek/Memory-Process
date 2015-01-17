@@ -1,4 +1,5 @@
 0.03
+ - Fix report() method in doc.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update copyright years in LICENSE file.
 

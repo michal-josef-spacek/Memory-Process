@@ -19,13 +19,12 @@ METHODS
              Returns return value of print().
 
     "record($message[, $pid])"
+
+    "report()"
              Get report.
              In scalar context returns string with report.
              In array context returns array of report lines.
              First line is title.
-
-    "report()"
-             TODO
 
     "state()"
              TODO
