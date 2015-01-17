@@ -1,5 +1,6 @@
 0.03
  - Fix report() method in doc.
+ - Implement record() method, which can has undefined message.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update copyright years in LICENSE file.
 

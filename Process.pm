@@ -5,8 +5,23 @@ use base qw(Memory::Usage);
 use strict;
 use warnings;
 
+# Modules.
+use Readonly;
+
+# Constants.
+Readonly::Scalar our $EMPTY_STR => q{};
+
 # Version.
 our $VERSION = 0.03;
+
+# Record.
+sub record {
+	my ($self, $message, $pid) = @_;
+	if (! defined $message) {
+		$message = $EMPTY_STR;
+	}
+	return $self->SUPER::record($message, $pid);
+}
 
 # Print report to STDERR.
 sub dump {
@@ -58,7 +73,11 @@ __END__
  Print report to STDERR.
  Returns return value of print().
 
-=item C<record($message[, $pid])>
+=item C<record([$message, $pid])>
+
+ Set record.
+ If message not set, use ''.
+ Returns undef.
 
 =item C<report()>
 
@@ -103,7 +122,8 @@ __END__
 
 =head1 DEPENDENCIES
 
-L<Memory::Usage>.
+L<Memory::Usage>,
+L<Readonly>.
 
 =head1 SEE ALSO
 

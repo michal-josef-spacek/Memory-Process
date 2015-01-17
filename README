@@ -18,7 +18,10 @@ METHODS
              Print report to STDERR.
              Returns return value of print().
 
-    "record($message[, $pid])"
+    "record([$message, $pid])"
+             Set record.
+             If message not set, use ''.
+             Returns undef.
 
     "report()"
              Get report.
@@ -57,7 +60,7 @@ EXAMPLE
      #      2  19120 (     0)   2464 (     0)   1824 (     0)      8 (     0)   1056 (     0) End
 
 DEPENDENCIES
-    Memory::Usage.
+    Memory::Usage, Readonly.
 
 SEE ALSO
     Memory::Stats, Memory::Usage.
