@@ -2,6 +2,7 @@
  - Add EXAMPLE2 example to doc.
  - Add documentation for state() method.
  - Fix report() method in doc.
+ - Implement state() method, which is better than Memory::Usage->state().
  - Implement record() method, which can has undefined message.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SEE ALSO section in doc.
