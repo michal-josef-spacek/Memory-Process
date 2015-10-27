@@ -1,4 +1,5 @@
 0.03
+ - Add EXAMPLE2 example to doc.
  - Add documentation for state() method.
  - Fix report() method in doc.
  - Implement record() method, which can has undefined message.
