@@ -24,6 +24,7 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Memory-Process';
 resources 'homepage' => 'https://github.com/tupinek/Memory-Process';
 resources 'repository' => 'git://github.com/tupinek/Memory-Process';
+test_requires 'IO::CaptureOutput' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
