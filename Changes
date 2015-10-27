@@ -1,6 +1,7 @@
 0.03
  - Add EXAMPLE2 example to doc.
  - Add documentation for state() method.
+ - Add tests.
  - Fix report() method in doc.
  - Implement state() method, which is better than Memory::Usage->state().
  - Implement record() method, which can has undefined message.

@@ -21,3 +21,8 @@ t/Memory-Process/00-use.t
 t/Memory-Process/01-version.t
 t/Memory-Process/02-pod_coverage.t
 t/Memory-Process/03-pod.t
+t/Memory-Process/04-new.t
+t/Memory-Process/05-dump.t
+t/Memory-Process/06-record.t
+t/Memory-Process/07-report.t
+t/Memory-Process/08-state.t
