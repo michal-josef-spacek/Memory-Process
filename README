@@ -129,7 +129,11 @@ DEPENDENCIES
     Memory::Usage, Readonly.
 
 SEE ALSO
-    Memory::Stats, Memory::Usage.
+    Memory::Stats
+        Memory Usage Consumption of your process
+
+    Memory::Usage
+        Tools to determine actual memory usage
 
 REPOSITORY
     <https://github.com/tupinek/Memory-Process>

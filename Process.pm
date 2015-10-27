@@ -194,8 +194,17 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Memory::Stats>,
-L<Memory::Usage>.
+=over
+
+=item L<Memory::Stats>
+
+Memory Usage Consumption of your process
+
+=item L<Memory::Usage>
+
+Tools to determine actual memory usage
+
+=back
 
 =head1 REPOSITORY
 

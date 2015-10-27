@@ -4,6 +4,7 @@
  - Fix report() method in doc.
  - Implement record() method, which can has undefined message.
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Improve SEE ALSO section in doc.
  - Update Module::Install to 1.16 version.
  - Update copyright years in LICENSE file.
 
