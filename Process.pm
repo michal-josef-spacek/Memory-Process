@@ -88,7 +88,16 @@ __END__
 
 =item C<state()>
 
- TODO
+ Get internal state.
+ Each state item consists from:
+ - timestamp (in seconds since epoch)
+ - message (from record())
+ - virtual memory size (in kB)
+ - resident set size (in kB)
+ - shared memory size (in kB)
+ - text size (in kB)
+ - data and stack size (in kB)
+ Returns reference to array with state items.
 
 =back
 
