@@ -19,6 +19,7 @@ name 'Memory-Process';
 readme_from 'Process.pm';
 recursive_author_tests('xt');
 requires 'Memory::Usage' => 0;
+requires 'Readonly' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Memory-Process';
