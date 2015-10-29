@@ -12,7 +12,7 @@ use Readonly;
 Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 # Record.
 sub record {
@@ -249,6 +249,6 @@ L<http://skim.cz/>
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
