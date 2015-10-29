@@ -25,6 +25,7 @@ t/Memory-Process/03-new.t
 t/Memory-Process/04-dump.t
 t/Memory-Process/05-record.t
 t/Memory-Process/06-report.t
-t/Memory-Process/07-state.t
+t/Memory-Process/07-reset.t
+t/Memory-Process/08-state.t
 xt/Memory-Process/01-pod_coverage.t
 xt/Memory-Process/02-pod.t

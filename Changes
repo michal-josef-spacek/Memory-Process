@@ -1,4 +1,5 @@
 0.04
+ - Add reset() method.
  - Fix requires.
  - Improve tests.
 

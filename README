@@ -6,6 +6,7 @@ SYNOPSIS
      my $m = Memory::Process->new(%params);
      $m->dump;
      $m->record($message, $pid);
+     $m->reset;
      my @report = $m->report;
      my $report = $m->report;
      $m->state;
@@ -28,6 +29,10 @@ METHODS
              In scalar context returns string with report.
              In array context returns array of report lines.
              First line is title.
+
+    "reset()"
+             Reset records.
+             Returns undef.
 
     "state()"
              Get internal state.

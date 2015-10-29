@@ -45,6 +45,13 @@ sub report {
 	return wantarray ? @report : $report_scalar;
 }
 
+# Reset records.
+sub reset {
+	my $self = shift;
+	@{$self} = ();
+	return;
+}
+
 # Get state.
 sub state {
 	my $self = shift;
@@ -69,6 +76,7 @@ __END__
  my $m = Memory::Process->new(%params);
  $m->dump;
  $m->record($message, $pid);
+ $m->reset;
  my @report = $m->report;
  my $report = $m->report;
  $m->state;
@@ -98,6 +106,11 @@ __END__
  In scalar context returns string with report.
  In array context returns array of report lines.
  First line is title.
+
+=item C<reset()>
+
+ Reset records.
+ Returns undef.
 
 =item C<state()>
 
