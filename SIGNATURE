@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 8f72ee8bae605877092d0371737a0eba471e7c6c Changes
+SHA1 66b8d89ef91561260547efbcdbd795118e1d5856 Changes
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE
-SHA1 674f4c70debf86f332fd1b7e78d6d86b01ee619e MANIFEST
-SHA1 8489347ac666de9c57b9bb184844d1b7eeb14b59 META.yml
-SHA1 27b8d993897050f7502aa9789fc42b264785f4da Makefile.PL
-SHA1 947c117c2b764ec86b41df51fe59c3ad0f9b26cc Process.pm
-SHA1 37d4ce2ff0eeb364ba065d6c88d9805432b4a052 README
+SHA1 813ef1b072104f9cc05599c461b1de448bacd1dc MANIFEST
+SHA1 f76f7e415e821d30277be0efa61b15c6c6918173 META.yml
+SHA1 0ff77fc6c1042a067e74b760dac90f6bdb4af50d Makefile.PL
+SHA1 fa8744e2071730629bdefdeb0acf824c1a6fa314 Process.pm
+SHA1 8bf58a5295770a1aca67afc9b42ff7f226a9ab83 README
 SHA1 ecfc0d51618c16a124e1d98eaa2a42e3673c029f examples/ex1.pl
 SHA1 10c7eaae0dc894dd13c2ec604cf3d6327c887b06 examples/ex2.pl
 SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
@@ -35,22 +35,23 @@ SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.p
 SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 a0d933d6762fc2690d746e647abea58f7d59edb8 t/Memory-Process/01-use.t
-SHA1 c7e9a163d334816b81d81db9f67af2c23c63bc07 t/Memory-Process/02-version.t
+SHA1 fddccb74fc1aff2f95f69aad38445d856474dde4 t/Memory-Process/02-version.t
 SHA1 7333e8d4e7f74b378becd108ed03e683c07e7d55 t/Memory-Process/03-new.t
 SHA1 b1f84e192ec0c2af15d9b089848ce1c811ea8f44 t/Memory-Process/04-dump.t
-SHA1 5db94f092faf1d6202e0c402aab9d5552a552f1d t/Memory-Process/05-record.t
+SHA1 7d0201111de48ce975b4eb66862b3e2ad19d2e95 t/Memory-Process/05-record.t
 SHA1 8e3164613beab3d49f5c7a0ad26dba0855b7e2eb t/Memory-Process/06-report.t
-SHA1 982478cca409b09e2e75ae483120dad1f13c7274 t/Memory-Process/07-state.t
+SHA1 3d3a6bebe5a69a3c57aadabe5812028098c7e6bf t/Memory-Process/07-reset.t
+SHA1 982478cca409b09e2e75ae483120dad1f13c7274 t/Memory-Process/08-state.t
 SHA1 6d69a2e85b779df414201cf7fe910e0e1941357a xt/Memory-Process/01-pod_coverage.t
 SHA1 2e840a8fedef311e0f72ca3e2d4ae08bd3c98b06 xt/Memory-Process/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWL1wyAAoJEJe+XXKaIuTlhpMH/iXJqeQJejGx+lH/ZsqEQn99
-jhIgFG1pjmQAvSZkY7wnqGo6EEGpBeUN03nEGgdObzimL+NKCtWHdLJSdXHNdVne
-3bISyljlJNB4d8phtUQtGZGYyKNqETSa5Pi9+xHGo82uOUd8ZimfGcAY+V9EfVz3
-mlgXwv3hUfH6MfEJ1wcXnjwLEGdx3PNGDLcdDAj1uq6yONX6SH9m3OtGSOk2sdqp
-BJONunjd1Xf9K3jAXr05bHQ3paLRGt27mKYRgslU2p07gEx1ZBTJ/H3gQAvEy+wB
-5RYld+6zxpfWeBjk5NGd762ZVEhQs6E5usXXOavKJVyuKgxurWhTGVLzsFsrzLI=
-=bmDa
+iQEcBAEBAgAGBQJWMm25AAoJEJe+XXKaIuTliHAIAKqRUw+Y0uGPSVEtr5LDf4gW
+AcmvU3zmBlnoFr0/AjRdmpcnfkqTcvDokt/3enhXm5YgtNkKZC/IDMVFHSqv9ejn
+MbkvW5syheVAxxmCHRGAgxInnmcrgr3hsDXA8OdLqeoULrWdzRlF8gtp0Tekwrys
+sEUxmjHZTpzA8l1iwXFYUcVsU5xsNkczvW5qf+miy9vCFy7SZbvL2rUR4o8/0XkY
+zIMoi5V/h57sImtyMhigkxx0dXWTxKqalKc3jQAOwxA1nl0cxCCeP0vL9eennMRN
+Hks2DUFnpr69nQXXAjFEWLk9AXgiW/hTnHriOuMPxY1288ZLL17lTLoZ0yvUK7g=
+=txxd
 -----END PGP SIGNATURE-----
