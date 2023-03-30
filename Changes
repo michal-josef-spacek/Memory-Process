@@ -1,4 +1,5 @@
 0.05
+ - Add names for example files.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix repository url.
  - Improve LICENSE AND COPYRIGHT section in doc.

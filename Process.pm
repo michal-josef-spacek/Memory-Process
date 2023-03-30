@@ -145,6 +145,8 @@ Returns reference to array with state items.
 
 =head1 EXAMPLE1
 
+=for comment filename=run_process_and_get_report.pl
+
  use strict;
  use warnings;
 
@@ -170,6 +172,8 @@ Returns reference to array with state items.
  #      2  19120 (     0)   2464 (     0)   1824 (     0)      8 (     0)   1056 (     0) End
 
 =head1 EXAMPLE2
+
+=for comment filename=run_process_and_get_state.pl
 
  use strict;
  use warnings;
