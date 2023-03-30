@@ -12,7 +12,9 @@ TODO
 2. Testy.
 Jeste jsou nejake drobne nedodelky v testech.
 4. Tohle ma podporu jenom na Linuxu, jak to resit?
-5.
+5. Fix issue on FreeBSD (https://rt.cpan.org/Ticket/Display.html?id=129575)
+6. Fix bugtracker
+7.
 
 Applied
 =======
