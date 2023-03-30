@@ -4,6 +4,7 @@
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Rewrite tests from IO::CaptureOutput to Capture::Tiny.
  - Update author name.
+ - Update copyright years.
  - Update Module::Install to 1.19 version.
 
 0.04 2015-10-29T20:04:23+01:00
