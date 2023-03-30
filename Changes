@@ -1,4 +1,5 @@
 0.05
+ - Fix repository url.
  - Update author name.
  - Update Module::Install to 1.19 version.
 

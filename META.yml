@@ -29,7 +29,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Memory-Process
-  homepage: https://github.com/tupinek/Memory-Process
+  homepage: https://github.com/michal-josef-spacek/Memory-Process
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Memory-Process
+  repository: git://github.com/michal-josef-spacek/Memory-Process
 version: '0.05'

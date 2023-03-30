@@ -231,7 +231,7 @@ Tools to determine actual memory usage
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Memory-Process>
+L<https://github.com/michal-josef-spacek/Memory-Process>
 
 =head1 AUTHOR
 
