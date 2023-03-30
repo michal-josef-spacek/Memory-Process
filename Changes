@@ -1,6 +1,7 @@
 0.05
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix repository url.
+ - Improve LICENSE AND COPYRIGHT section in doc.
  - Rewrite tests from IO::CaptureOutput to Capture::Tiny.
  - Update author name.
  - Update Module::Install to 1.19 version.
