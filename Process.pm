@@ -74,9 +74,9 @@ __END__
  my $m = Memory::Process->new(%params);
  $m->dump;
  $m->record($message, $pid);
- $m->reset;
  my @report = $m->report;
  my $report = $m->report;
+ $m->reset;
  $m->state;
 
 =head1 METHODS
