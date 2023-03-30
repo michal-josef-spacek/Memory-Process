@@ -70,6 +70,7 @@ __END__
 =head1 SYNOPSIS
 
  use Memory::Process;
+
  my $m = Memory::Process->new(%params);
  $m->dump;
  $m->record($message, $pid);
