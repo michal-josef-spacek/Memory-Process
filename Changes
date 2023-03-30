@@ -1,5 +1,6 @@
 0.05
  - Fix repository url.
+ - Rewrite tests from IO::CaptureOutput to Capture::Tiny.
  - Update author name.
  - Update Module::Install to 1.19 version.
 

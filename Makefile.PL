@@ -23,7 +23,7 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Memory-Process';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Memory-Process';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Memory-Process';
-test_requires 'IO::CaptureOutput' => 0;
+test_requires 'Capture::Tiny' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
