@@ -127,11 +127,9 @@ __END__
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Memory::Process;
 
  # Object.
@@ -155,11 +153,9 @@ __END__
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Data::Printer;
  use Memory::Process;
 
