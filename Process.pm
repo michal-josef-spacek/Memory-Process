@@ -81,39 +81,58 @@ __END__
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new(%params)>
+ my $m = Memory::Process->new(%params);
 
- Constructor.
+Constructor.
 
-=item C<dump()>
+Returns instance of object.
 
- Print report to STDERR.
- Returns return value of print().
+=head2 C<dump>
 
-=item C<record([$message, $pid])>
+ $m->dump;
 
- Set record.
- If message not set, use ''.
- Returns undef.
+Print report to STDERR.
 
-=item C<report()>
+Returns return value of print().
 
- Get report.
- In scalar context returns string with report.
- In array context returns array of report lines.
- First line is title.
+=head2 C<record>
 
-=item C<reset()>
+ $m->record($message, $pid);
 
- Reset records.
- Returns undef.
+Set record.
+If message not set, use ''.
 
-=item C<state()>
+Returns undef.
 
- Get internal state.
- Each state item consists from:
+=head2 C<report>
+
+ my @report = $m->report;
+ my $report = $m->report;
+
+Get report.
+
+In scalar context returns string with report.
+In array context returns array of report lines.
+First line is title.
+
+=head2 C<reset>
+
+ $m->reset;
+
+Reset records.
+
+Returns undef.
+
+=head2 C<state>
+
+ $m->state;
+
+Get internal state.
+
+Each state item consists from:
+
  - timestamp (in seconds since epoch)
  - message (from record())
  - virtual memory size (in kB)
@@ -121,9 +140,8 @@ __END__
  - shared memory size (in kB)
  - text size (in kB)
  - data and stack size (in kB)
- Returns reference to array with state items.
 
-=back
+Returns reference to array with state items.
 
 =head1 EXAMPLE1
 
