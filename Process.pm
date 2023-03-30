@@ -1,17 +1,14 @@
 package Memory::Process;
 
-# Pragmas.
 use base qw(Memory::Usage);
 use strict;
 use warnings;
 
-# Modules.
 use Readonly;
 
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-# Version.
 our $VERSION = 0.05;
 
 # Record.

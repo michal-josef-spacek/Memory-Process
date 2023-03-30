@@ -1,8 +1,6 @@
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Memory::Process;
 use IO::CaptureOutput qw(capture);
 use Test::More 'tests' => 7;
