@@ -30,5 +30,11 @@ test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
 version '0.06';
 
+if ($^O eq 'freebsd' || $^O eq 'MSWin32' || $^O eq 'openbsd' || $^O eq 'solaris'
+	|| $^O eq 'darwin') {
+
+	die "System '$^O' doesn't supported.";
+}
+
 # Run.
 WriteAll();
