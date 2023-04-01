@@ -9,7 +9,7 @@ use Readonly;
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Record.
 sub record {
@@ -266,6 +266,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut

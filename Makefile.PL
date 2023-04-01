@@ -28,7 +28,7 @@ test_requires 'Capture::Tiny' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
-version '0.06';
+version '0.07';
 
 if ($^O eq 'freebsd' || $^O eq 'MSWin32' || $^O eq 'openbsd' || $^O eq 'solaris'
 	|| $^O eq 'darwin') {
